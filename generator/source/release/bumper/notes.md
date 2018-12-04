@@ -177,39 +177,33 @@ Sawtooth PBFT is still in the prototype phase and is under active development.
 # Documentation
 
 In addition to updates for Hyperledger Sawtooth 1.1 features, technical
-corrections, and bug fixes throughout, the documentation has the following
-changes and improvements.
+corrections, and bug fixes throughout, the Sawtooth documentation has the
+following changes and improvements:
 
-- New Rust SDK documentation.
-- New glossary of Sawtooth terminology.
-
-## Application Developer’s Guide
-
-- Improved procedures for running a single Sawtooth node with Docker, Ubuntu,
-  or AWS, plus a new Kubernetes procedure. See [Setting Up a Sawtooth
-  Application Development Environment](https://sawtooth.hyperledger.org/docs/core/nightly/master/app_developers_guide/installing_sawtooth.html).
-- New procedures to add multiple nodes to a network for Docker, Ubuntu, and
-  Kubernetes. See [Creating a Sawtooth Network](https://sawtooth.hyperledger.org/docs/core/nightly/master/app_developers_guide/creating_sawtooth_network.html).
-- Updated procedure for trying the example tic-tac-toe transaction processor in
-  Sawtooth. See [Playing with the XO Transaction Family](https://sawtooth.hyperledger.org/docs/core/nightly/master/app_developers_guide/intro_xo_transaction_family.html).
-- Improved and expanded tutorials for using the Sawtooth JavaScript, Go, and
-  Python SDKs, plus a new Rust version. See [Using the Sawtooth SDKs](https://sawtooth.hyperledger.org/docs/core/nightly/master/app_developers_guide/using_the_sdks.html).
-
-## System Administrator’s Guide
-
-- Improved procedure for setting up a Sawtooth network with PoET simulator
-  consensus, including new steps to change off-chain settings and test the
-  system. See [Setting Up a Sawtooth Node](https://sawtooth.hyperledger.org/docs/core/nightly/master/sysadmin_guide/setting_up_sawtooth_poet-sim.html).
-- Updated procedure to configure a proxy server. See [Using a Proxy Server to
-  Authorize the REST API](https://sawtooth.hyperledger.org/docs/core/nightly/master/sysadmin_guide/rest_auth_proxy.html).
-- Updated permission information. See [Configuring Validator and Transactor
-  Permissions](https://sawtooth.hyperledger.org/docs/core/nightly/master/sysadmin_guide/configuring_permissions.html).
-- New procedure to configure Sawtooth to display Grafana metrics. See [Using
-  Grafana to Display Sawtooth Metrics](https://sawtooth.hyperledger.org/docs/core/nightly/master/sysadmin_guide/grafana_configuration.html).
-
-## Architecture Guide
-
-- General improvements and a new architecture overview.
+- New Rust SDK documentation
+- New glossary of Sawtooth terminology
+- Application Developer’s Guide:
+  - Improved procedures for running a single Sawtooth node with Docker, Ubuntu,
+    or AWS, plus a new Kubernetes procedure. See [Setting Up a Sawtooth
+    Application Development Environment](https://sawtooth.hyperledger.org/docs/core/nightly/master/app_developers_guide/installing_sawtooth.html).
+  - New procedures to add multiple nodes to a network for Docker, Ubuntu, and
+    Kubernetes. See [Creating a Sawtooth Network](https://sawtooth.hyperledger.org/docs/core/nightly/master/app_developers_guide/creating_sawtooth_network.html).
+  - Updated procedure for trying the example tic-tac-toe transaction processor in
+    Sawtooth. See [Playing with the XO Transaction Family](https://sawtooth.hyperledger.org/docs/core/nightly/master/app_developers_guide/intro_xo_transaction_family.html).
+  - Improved and expanded tutorials for using the Sawtooth JavaScript, Go, and
+    Python SDKs, plus a new Rust version. See [Using the Sawtooth SDKs](https://sawtooth.hyperledger.org/docs/core/nightly/master/app_developers_guide/using_the_sdks.html).
+- System Administrator’s Guide:
+  - Improved procedure for setting up a Sawtooth network with PoET simulator
+    consensus, including new steps to change off-chain settings and test the
+    system. See [Setting Up a Sawtooth Node](https://sawtooth.hyperledger.org/docs/core/nightly/master/sysadmin_guide/setting_up_sawtooth_poet-sim.html).
+  - Updated procedure to configure a proxy server. See [Using a Proxy Server to
+    Authorize the REST API](https://sawtooth.hyperledger.org/docs/core/nightly/master/sysadmin_guide/rest_auth_proxy.html).
+  - Updated permission information. See [Configuring Validator and Transactor
+    Permissions](https://sawtooth.hyperledger.org/docs/core/nightly/master/sysadmin_guide/configuring_permissions.html).
+  - New procedure to configure Sawtooth to display Grafana metrics. See [Using
+    Grafana to Display Sawtooth Metrics](https://sawtooth.hyperledger.org/docs/core/nightly/master/sysadmin_guide/grafana_configuration.html).
+- Architecture Guide:
+  - General improvements and a new architecture overview.
 
 [> back to top <](#top)
 
